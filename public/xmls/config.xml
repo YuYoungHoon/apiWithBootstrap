@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<setting>
+    <token>
+        <tokentime>140000</tokentime>
+    </token>
+    <page>
+        <pageTime>6000</pageTime>
+    </page>
+</setting>

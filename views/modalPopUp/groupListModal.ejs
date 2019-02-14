@@ -1,0 +1,86 @@
+<!-- 수정 -->
+<div class="modal fade" id="modifyDevice" tabindex="-1" role="dialog" aria-labelledby="modifyDevice" aria-hidden="false">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Modifiy">Setting</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="contactForm" name="contact" role="form">
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="name">Device ID</label>
+            <input type="text" id="mDeviceId" class="form-control" disabled>
+          </div>
+          <div class="form-group">
+            <label for="deviceName">Device Name</label>
+            <input type="text" id="mDeviceName" class="form-control" onfocus="this.value=''">
+          </div>
+          <div class="form-group">
+            <label for="message">Devce Owner</label>
+            <input type="text" id="mOwner" class="form-control"  placeholder="owner" disabled>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="modifyDevice();">Modifiy</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- 추가 -->
+<div class="modal fade" id="addDevice" tabindex="-1" role="dialog" aria-labelledby="addDevice" aria-hidden="false">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addDevice">addDevice</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="contactForm" name="contact" role="form">
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="name">Device Id</label>
+            <input type="text" id="aDeviceId" class="form-control"></input>
+          </div>
+          <div class="form-group">
+            <label for="deviceName">Device Name</label>
+            <input type="text" id="aDeviceName" class="form-control" >
+          </div>
+          <div class="form-group">
+            <label for="message">Device Owner</label>
+            <input type="text" id="aOwner" class="form-control" >
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="addDevice();">Add</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- 옵션 -->
+<div class="modal fade" id="optionDevice" tabindex="-1" role="dialog" aria-labelledby="optionDevice" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Option">Option</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        옵션
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="">Adjust</button>
+      </div>
+    </div>
+  </div>
+</div>

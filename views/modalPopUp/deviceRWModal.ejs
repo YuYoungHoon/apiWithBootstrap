@@ -1,0 +1,30 @@
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Read & Write</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+          <input type="text" style="width: 100%;" class="ui input focus" id="inputedCmd" list="command" autocomplete="off" onfocus="this.value=''"/>
+          <datalist id="command" >
+            <option value="80F00000190000000000000000000000000000000000000000000000000000">80F00000190000000000000000000000000000000000000000000000000000</option>
+            <option value="00A40400022F01">00A40400022F01</option>
+            <option value="00A4040007D4100000030001">00A4040007D4100000030001</option>
+            <option value="00A4040007D4106509900010">00A4040007D4106509900010</option>
+            <option value="00B2011440">00B2011440</option>
+            <option value="00C0000061">00C0000061</option>
+            <option value="00B200006C">00B200006C</option>
+            <option value="00CA011108">00CA011108</option>
+            <option value="00B2010C47">00B2010C47</option>
+          </datalist>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="sendCmd();">Send Command</button>
+        </div>
+    </div>
+  </div>
+</div>
