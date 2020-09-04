@@ -17,7 +17,7 @@
     "install": "^0.12.2",
     "jquery": "^3.3.1",
     "jsonwebtoken": "^8.3.0",
-    "mongodb": "^3.1.6",
+    "mongodb": "^3.1.13",
     "mongoose": "^5.3.1",
     "request": "^2.88.0",
     "semantic-ui": "^2.4.2",
